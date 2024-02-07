@@ -538,7 +538,7 @@ def new_posi_spring_n(tmax, dt, t, x_vec, theta_0, gole_position,n, L, K, D, ini
                     # break
                 # break
             elif max_dL >= L*0.3 :
-                print("ばねの運動が収束していません。")
+                # print("ばねの運動が収束していません。")
                 success = 0
                 return success
                 # break
